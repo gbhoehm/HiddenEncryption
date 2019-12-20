@@ -6,7 +6,7 @@ like protocol.  Through the use of the python PyCrypto's AES encryption, Stegano
 algorithm LSB, and connecting piece we have formed a form of concealed encryption.  By 
 encoding the encrypted form of a text file into a PNG image with LSB, we can leave no visible 
 trace of encryption.  In order not to make passwords difficult we made a simple multiple 
-layered matrix based encryption for AES�s key.  This allows any 16 character string that is 
+layered matrix based encryption for AES's key.  This allows any 16 character string that is 
 memorable be used to add some protection to the key being stored.  
 
 High-level notes:
@@ -21,7 +21,6 @@ Platform:
 	like Windows, Mac os, and Linux. 
 
 Installation:
-	After downloading or clone the executable it is a simple as double clicking on the file.
 	After downloading or clone the source code these libraries will need to be installed:
 	-	PIL (Python Image Library)
 	-	PyCrypto (This can be installed with: "pip install pycryptodome")
